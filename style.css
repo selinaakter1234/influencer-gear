@@ -97,8 +97,8 @@ grid-template-columns: repeat(3, 1fr);
 
 margin-left: 7%;
 margin-right: 10%;
-    margin-top: 10%;
-    justify-content: space-between;
+margin-top: 10%;
+justify-content: space-between;
 
 }
 .course{
@@ -165,8 +165,15 @@ h3{
     text-align: center;
 }
 .photo-album{
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    
+grid-template-columns: repeat(4, 1fr);
+
+margin-left: 7%;
+margin-right: 10%;
+margin-top: 10%;
+justify-content: space-between;
+
 }
 .photo-frame{
     width:300px;
