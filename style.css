@@ -161,6 +161,9 @@ bonus
     margin-top: 10%;
     margin-bottom: 10%;
 }
+h3{
+    text-align: center;
+}
 .photo-album{
     display: flex;
     flex-wrap: wrap;
