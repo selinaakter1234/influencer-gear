@@ -1,0 +1,112 @@
+body{
+    font-family: 'Roboto Slab', serif;
+    margin:0 auto;
+}
+
+nav{
+    background-color: green;
+    height: 80px;
+    width: 100%;
+}
+label.logo{
+    margin: 0 100px;
+    line-height:80px;
+    font-weight: bold;
+    font-size: 25px;
+}
+nav ul{
+    float:right;
+    display:flex;
+    line-height: 75px;
+    margin: 0 100px;
+    font-weight: bold;
+
+}
+nav li{
+    list-style:none;
+    margin-right:20px; 
+}
+nav li a{
+    text-decoration:none;
+    color:black;
+}
+
+/* top banner */
+.top-banner{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 100px;
+   
+}
+.left-side{
+    padding-top: 60px;
+}
+h1{
+    font-size:60px;;
+}
+.anchor-button{
+    text-decoration: none;
+    background-color:rgb(217, 45, 111);
+    padding: 10px 40px;
+    border-radius: 50px;
+    color: white;
+    font-weight: 700px;
+
+}
+.half-width img{
+    width: 80%;
+    
+    padding: 80px 20px;
+   
+}
+/* top banner end */
+  /* ..........................
+  meadia quary
+  ........................... */
+
+
+  /*mobile meadia quary*/
+  @media only screen and (min-width:688px;){
+    nav ul li{
+        display: none;
+        float: hide;
+    }  
+  }
+  /* ..........................
+  meadia quary
+  ........................... */
+    /* ..........................
+  meadia quary
+  ........................... */
+
+
+
+/* popular connection */
+.courses{
+display: grid;
+
+grid-template-columns: repeat(3, 1fr);
+
+}
+.course .course-banner img{
+    width: 300px;
+    height: 265px;
+}
+.fa-star{
+    font-size:12px;
+}
+
+.fa-start.emty{
+    color:#bbb8ae;
+}
+.course-info{
+    display: flex;
+    align-items: center;
+    color:#fdbc08;
+    /* justify-content: space-between; */
+}
+.rating{
+    color:black;
+}
