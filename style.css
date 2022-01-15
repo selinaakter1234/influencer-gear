@@ -144,10 +144,44 @@ margin-right: 10%;
 .arrow{
     float: right;
     margin-right: 10%;
+    margin-bottom: 10%;
 
 }
 .right-arrrow{
     color: rgb(255, 95, 95);
     font-size: 30px;
     font-weight:700;
+}
+
+/* bonus */
+.bonus{
+    height:200px;
+    background-color: yellowgreen;
+    margin-top: 10%;
+}
+
+/* footer area */
+footer{
+    
+}
+.footer-area{
+    
+ background-color: #000000;
+justify-content: center;
+align-items: center;
+
+}
+h4{
+    font-size: 25px;
+}
+
+.footer-item{
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+.footer-item a{
+    font-size: 30px;
+    margin: 20px 20px;
 }
