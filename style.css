@@ -141,3 +141,13 @@ margin-right: 10%;
     font-size: 14px;
     font-weight:700;
 }
+.arrow{
+    float: right;
+    margin-right: 10%;
+
+}
+.right-arrrow{
+    color: rgb(255, 95, 95);
+    font-size: 30px;
+    font-weight:700;
+}
