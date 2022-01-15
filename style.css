@@ -153,12 +153,60 @@ margin-right: 10%;
     font-weight:700;
 }
 
-/* bonus */
-.bonus{
-    height:200px;
-    background-color: yellowgreen;
+/* -------------------------
+bonus 
+...........................*/
+.gellary-area{
+    
     margin-top: 10%;
+    margin-bottom: 10%;
 }
+.photo-album{
+    display: flex;
+    flex-wrap: wrap;
+}
+.photo-frame{
+    width:300px;
+    height: 200px;
+    border: 2px solid golden;
+    border-radius:10px;
+    position: relative;
+    margin: 15px;
+}
+.photo img{
+    width: 100%;
+    border-radius: 10px;
+}
+.photo-detail{
+    display: none;
+
+    position: absolute;
+    width:300px;
+    top: 0;;
+
+}
+
+.photo-frame:hover .photo-detail {
+display: block;
+background-color:rgba(125, 91, 32, 0.53);
+}
+
+.photo-detail p{
+    color: white;
+}
+
+.photo-detail h3{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+
+
 
 /* footer area */
 footer{
